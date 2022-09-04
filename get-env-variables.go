@@ -5,7 +5,8 @@ import (
 	"os"
 )
 
-func main() {
+// ! Remove the funtion name to main before run
+func main1() {
 	//Get all environment variables
 	for _, env := range os.Environ() {
 		fmt.Println(env)
